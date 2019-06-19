@@ -27,9 +27,9 @@
  </form>
  <?php
     $host = "<ssubmission-appserver.database.windows.net>";
-    $user = "<Yusufajiib>";
+    $user = "<yusufajiib>";
     $pass = "<1bnurohmaT>";
-    $ db  =  "<submission-1-db>" ;
+    $db = "<submission-1-db>";
 
 try {
     $ conn  =  PDO baru  ( "sqlsrv: server = tcp: ssubmission-appserver.database.windows.net, 1433; Database = Pengajuan-1-db" , "Yusufajiib" , "{your_password_here}" );

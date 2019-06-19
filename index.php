@@ -60,7 +60,7 @@ $conn = sqlsrv_connect($serverName, $connectionInfo);
             $date = date("Y-m-d");
             // Insert data
             $sql_insert = "INSERT INTO Registration (name, email, job, date) 
-                        VALUES (?,?,?,?)";
+                        VALUES (?,?,?,?) " ;
             $stmt = $conn->prepare($sql_insert);
             $stmt->bindValue(1, $name);
             $stmt->bindValue(2, $email);

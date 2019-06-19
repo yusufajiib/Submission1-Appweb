@@ -29,10 +29,10 @@
     $host = "<ssubmission-appserver.database.windows.net>";
     $user = "<Yusufajiib>";
     $pass = "<1bnurohmaT>";
-    $db = "<Submission-1-db>";
+    $ db  =  "<submission-1-db>" ;
 
 try {
-    $conn = new PDO("sqlsrv:server = tcp:ssubmission-appserver.database.windows.net,1433; Database = Submission-1-db", "Yusufajiib", "{your_password_here}");
+    $ conn  =  PDO baru  ( "sqlsrv: server = tcp: ssubmission-appserver.database.windows.net, 1433; Database = Pengajuan-1-db" , "Yusufajiib" , "{your_password_here}" );
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch (PDOException $e) {

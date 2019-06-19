@@ -29,9 +29,8 @@
     $host = "<ssubmission-appserver.database.windows.net>";
     $user = "<Yusufajiib>";
     $pass = "<1bnurohmaT>";
-    $db = "<submission-1-db>";
+    $db = "<Submission-1-db>";
 
-// PHP Data Objects(PDO) Sample Code:
 try {
     $conn = new PDO("sqlsrv:server = tcp:ssubmission-appserver.database.windows.net,1433; Database = Submission-1-db", "Yusufajiib", "{your_password_here}");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

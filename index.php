@@ -27,7 +27,7 @@
  </form>
  <?php
     $host = "<ssubmission-appserver>";
-    $user = "<yusufajiib>";
+    $user = "<Yusufajiib>";
     $pass = "<1bnurohmaT>";
     $db = "<submission-1-db>";
 

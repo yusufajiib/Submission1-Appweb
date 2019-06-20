@@ -26,11 +26,7 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "<ssubmission-appserver.database.windows.net>";
-    $user = "<Yusufajiib>";
-    $pass = "<1bnurohmaT>";
-    $db = "<Submission-1-db>";
-
+    
     // PHP Data Objects(PDO) Sample Code:
 try {
     $conn = new PDO("sqlsrv:server = tcp:ssubmission-appserver.database.windows.net,1433; Database = Submission-1-db", "Yusufajiib", "1bnurohmaT");

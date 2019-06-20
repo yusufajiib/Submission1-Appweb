@@ -27,7 +27,7 @@
  </form>
  <?php
     $host = "<ssubmission-appserver.database.windows.net>";
-    $user = "<yusufajiib>";
+    $user = "<Yusufajiib>";
     $pass = "<1bnurohmaT>";
     $db = "<Submission-1-db>";
 
